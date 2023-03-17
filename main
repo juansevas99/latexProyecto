@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\documentclass[twoside]{article} % Note: uses twoside option
+\usepackage[a4paper, marginparwidth=75pt, total={12cm, 20cm}]{geometry} % To create a small page
+\usepackage{hyperref} % To use the \url command (in the footnote)
+\usepackage{marginnote}
+
+\begin{document}
+\begin{titlepage}
+\centering
+{\bfseries\LARGE Fundación Universitaria Konrad Lorenz\par}
+\vspace{1cm}
+{\scshape\Large  Facultad de Matemáticas e ingeniería \par}
+\vspace{3cm}
+{\scshape\Huge Proyecto de divulgación: Breve historia de la
+Geometria Euclidiana y la Geometría no Euclidiana\par}
+\vspace{3cm}
+{\itshape\Large  \par}
+\vfill
+{\Large Juan Sebastian Galvis Sandoval \par}
+
+\vfill
+{\Large 2023 \par}
+\end{titlepage}
+
+
+
+\section{Introduction}
+
+\section{Lo que antecedió a la Geometría Euclidiana} 
+
+ Antes de introducirnos puramente en la matemática antigua antes de la Geometría Euclidiana, es importante que el lector se ubique en espacio y tiempo.
+El nacimiento de la Geometría Euclidiana tuvo lugar en pleno inicio del
+periodo Helenístico en Grecia (323 A.C. - 31 A.C.), cuyo periodo también marca
+la introducción de los griegos en el desarrollo de la matemática, las cuales,
+hasta entonces, no habían tenido mucha evolución por parte de los Babilonios
+y el pueblo egipcio - pueblos pioneros que se especializaron en el desarrollo de
+la aritmética y la geometría. Además, Proclo, un historiador griego (revisar)
+indica que Euclides, padre de esta geometría, existió en este periodo, quizá
+en el año 330 A.C., en alguna parte entre Platón y Arquímedes. Aunque el mayor
+auge, en el desarrollo de las Matemáticas en la antigüedad, tuvo lugar justo
+después de la muerte de Alejandro Magno (323), cabe resaltar que, de manera independiente, los pueblos que integraban Babilonia y Egipto desarrollaron
+su propio sistema numérico para la resolución de problemas de la vida diaria.
+Estos pueblos fueron pioneros en el desarrollo puro de la aritmética, lo que
+conocemos como números naturales, fraccionarios, principios del álgebra y algo
+de geometría. Sin embargo, no había rigor, análisis, demostraciones y el simbolismo era pobre, además de que la representación de los números y las bases
+de sus sistemas numéricos hacía mucho más lento operarlos.
+Los Babilónicos son un pueblo que integran gran parte del mundo oriental
+en la Antigüedad. Este pueblo se estableció, más que todo, en Mesopotamia ´
+-lo que hoy es Irak. El pueblo egipcio, por su parte, se desarrolló en el norte
+de África, salvado del extenso desierto por el río Nilo para hacer agricultura.
+Ambos pueblos crecieron de manera independiente y m´as en la forma en que
+crearon las matemáticas. La representación de los números, quizá muy compleja para los contemporáneos (figura 1) eran aquellos jeroglíficos consolidados
+en papiro (Egipto) o en arcilla húmeda (Babilonia).
+
+\begin{center}
+    \begin{tabular}{{2cm} | {2cm}}
+        \centering \includegraphics[scale=0.2]{figura1a.png} & \centering  \includegraphics[scale=0.2]{figura1b.png} \\
+         
+    \end{tabular}
+\end{center}
+
+Los babilónicos, al igual que los egipcios, originaron la aritmética de manera
+independiente, es decir, que conocieron las operaciones de suma, resta, multiplicación y división de números; sin embargo, cada uno con métodos distintos para
+encontrar resultados precisos. Los egipcios, por ejemplo, usaban un método
+para hallar la razón de dos números. Para dividir 19 entre 8 se sigue:
+
+
+\begin{center}
+     \begin{tabular}{c| c}
+        1  & 8 \\
+        2 & 16 \\
+        1/2 & 4 \\
+        1/4 & 2 \\
+        1/8 & 1 \\
+
+
+        
+          
+         
+         
+    \end{tabular}
+\end{center} \\
+La idea, en este caso, es sumar aquellos números de la columna izquierda
+que corresponden a aquellos números en la columna derecha cuya suma sea 19,
+es decir 2 + 1/4 + 1/8, que es el resultado que buscamos.
+Igual que en la aritmética, el álgebra también tuvo lugar en ambas civilizaciones. Un ejemplo de ello es la manera en como se resolvían ecuaciones con
+una o más incógnitas por parte de los Babilónicos (aunque el concepto incógnito pasara de manera inadvertida o desconocida). La resolución de ecuaciones
+Cuadráticas con algunos artilugios matemáticos, así como la capacidad de resolver sistemas de diez ecuaciones de hasta diez incógnitas, les permitió abordar
+problemas complejos que se presentaban en la vida diaria o en el trabajo. El
+desarrollo de la Geometría fue muy pobre para ambos, reduciendo su avance a
+simples cálculos de áreas y volúmenes sencillos.
+Se debe comprender la importancia del desarrollo de las Matemáticas hasta
+esta primera parte, puesto que, aunque no se concibió a las matemáticas \marginpar [Observación 1]{En la antigüedad las
+Matemáticas fueron
+herramientas útiles para
+fines prácticos} 
+como una materia independiente, sí que se aplicó ampliamente según se iba requiriendo. Como observación de esta primera parte queda clara que las matemáticas solo se veían como una herramienta para poder llegar a un resultado práctico, a pesar de que su desarrollo en esa época no tomo mucha importancia. Respecto a esto, considere un problema de la época, escrito en un papiro de Ahmes:
+"Instrucciones para dividir 100 hogazas de pan entre 4 personas, 2/3 para el
+primero, 1/2 para el segundo, 1/3 para el tercer y 1/4 para el cuarto, que en el
+Lenguaje de hoy puede ser escrito como 2/3(x)+1/2(x)+1/3(x)+1/4(x) = 700".
+\subsection{Matemática como ciencia: Los griegos aparecen en la
+escena}
+
+
+Según referencias históricas en obras como la Ilíada o la Odisea, al igual que
+numerosos hallazgos arqueológicos, se podría decir que el origen civilización
+griega data del año 2800 A.C. Desde una perspectiva matemática, es conveniente dividir la historia en el periodo clásico (antes del año 323 A.C.) y el
+periodo Alejandrino o Helenístico (323 A.C. al 600 D.C.). A lo largo del periodo clásico, Grecia, que se establecía en Asia menor y parte de Italia, era
+Fuertemente influenciada por la cultura egipcia y babilónica, en cuanto esta se
+abría comercialmente por mar y tierra. Esto quiere decir que parte de la cul \marginpar[Observacion 2]{Las civilizaciones primitivas carecían de un
+pensamiento abstracto.
+Los objetos físicos
+estaban ligados a los
+objetos matemáticos. Se
+pensaba en una recta,
+pensando en una cuerda.} 
+tura y el conocimiento matemático fueron heredados, particularmente el uso
+del papiro, con el cual los griegos esparcían más fácilmente el conocimiento.
+El florecimiento de esta civilización fue, por tanto, por estos dos hechos mencionados, la influencia de culturas como la babilónica y la egipcia y el uso del
+papiro que indirectamente también facilito lo que más adelante iba a sentar las
+bases del periodo Helenístico, que son la creación de escuelas de pensamiento.
+
+Estas estructuras se describen mejor por: "La matemática griega se desarrolló en diferentes centros que sucedían unos a otros, basándose cada uno en la
+obra de sus predecesores. En cada uno de esos centros, un grupo informal de
+matemáticos realizaba sus actividades dirigidas por uno a más sabios".
+Todo empezó en Mileto, con la escuela jónica, que hizo contribuciones
+a la filosofía y demás ciencias; sin embargo, no hubo cabida casi para las
+matemáticas, por lo que no se hablara mucho de ella. La escuela pitagórica nace, resucitando a su predecesora, de la invasión Persa en Mileto. La
+escuela pitagórica, dirigida precisamente por Pitágoras, tuvo varias contribuciones, aunque solo se sepa de ´estas por referencias hechas por otros comentaristas. La observación más relevante hecha por esta escuela, quizá para el objetivo
+de este documento, es la concientización sobre los objetos matemáticos como
+abstracciones producidas por la mente y separadas de los objetos físicos, lo que
+claramente, abrió campo a nuevas áreas de las matemáticas ( hecho que Aristóteles contradice) como la teoría de números, que es hoy ampliamente estudiada.
+Siguiendo, Eudemo, según Proclo, indicaba que Pitágoras era el creador de la
+Matemática pura (desligada del mundo sensible), a la que convirtió en un arte
+liberal. En resumen, los pitagóricos hicieron estudio de los números enteros y \marginpar[Observación 2]{Los pitagóricos hacían
+sus demostraciones
+basando sus resultados
+en casos muy específicos
+y especiales, es decir, no requerían de una base
+general} 
+sus propiedades, haciendo observaciones sobre números primos, números compuestos, números triangulares (a aquellos que pueden ser formados por triángulos equiláteros), números perfectos. Los pitagóricos también hicieron avances
+sobre números conmensurables (números racionales) pero rechazando los inconmensurables (irracionales), ya que imposibilitaba los estudios sobre ternas y
+la identificación misma de número y geometría. Luego, la escuela eleática que
+recoge los problemas dejados por los pitagóricos sobre la inconmensurabilidad
+de algunos números. Quizá lo más relevante a mencionar sobre esta escuela
+son las paradojas propuestas por Zenón de Elea que ponen a los pitagóricos
+en jaque e introduce la relación que existe entre lo discreto y lo continuo. Con
+ellas se discute la divisibilidad e infinitud del tiempo, el movimiento o el espacio. A partir de la escuela platónica se le conoce como periodo helenístico y
+marca una nueva era en las matemáticas. Bajo la supervisión de platón; su
+Escuela, la Academia fue centro de sabiduría occidental, que tuvo como centro
+Geográfico a Atenas, que luego traspasó toda su importancia a Alejandría, la
+cuál paso a ser centro del conocimiento. . En la figura 2, se aprecia una línea \marginpar[Observación 3]{La regla y el compás
+fueron considerados las
+herramientas primarias
+y admitidas por lo
+Pitagóricos ya que
+consideraban que la
+Geometría se limitaba a
+extensiones de rectas y
+Círculos.}
+de tiempo que muestra acontecimientos importantes:
+
+\begin{center}
+    \includegraphics[scale=0.24]{figura1c.png}
+\end{center}
+
+
+
+
+\end{document}
